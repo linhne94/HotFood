@@ -1,0 +1,121 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 29, 2023, 9:52:10 AM
+    Author     : minhhieu
+*/
+
+.header-content {
+  margin-top: 20px;
+}
+.header-content h1 {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #1e1e27;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.center-content {
+  margin: 20px;
+}
+
+.center-content .combo-list:hover {
+    border: 1px solid #ff4c4c;
+}
+
+.center-content .combo-list {
+  box-shadow: 0 0 12px rgba(221, 221, 221, 0.9);
+  border: solid 0.5px #f0f0f0 ;
+  border-radius: 20px;
+}
+
+.title-combo h3 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.add-cart a {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+.add-cart button {
+  border-radius: 40px;
+  padding: 8px 0;
+  background-color: #fe4c50;
+  padding-bottom: 10px;
+}
+
+.add-cart button:hover {
+  background-color: #1e1e27;
+}
+
+.add-cart a:hover {
+  color: white;
+}
+
+/* modal */
+.modal-content {
+  border-radius: 20px;
+}
+.modal-title {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 20px 0 10px 20px;
+}
+
+.product-list {
+  border: 1px solid #ececec;
+  border-radius: 25px;
+  background-color: #fafafa;
+}
+.product-list:hover {
+  border: 1px solid #fe4c50;
+  border-radius: 25px;
+}
+
+.product-list .col-md-3 img {
+  max-height: 50px;
+  margin: 10px;
+  margin-left: 15px;
+}
+.product-list .col-md-8 {
+  text-align: center;
+}
+
+.total-price{
+    margin: 40px 24px 15px 24px !important; 
+  
+}
+
+.left-infor button {
+  border-radius: 40px;
+  padding: 8px 0;
+  background-color: #fe4c50;
+  padding-bottom: 10px;
+}
+
+
+.left-infor button:hover {
+  background-color: #1e1e27;
+}
+.left-infor a {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
+.left-infor a:hover {
+    color: white;
+}
+.left-infor{
+    margin-bottom: 10px;
+
+}
+

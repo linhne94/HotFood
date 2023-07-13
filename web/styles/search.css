@@ -1,0 +1,41 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 25, 2023, 8:24:03 AM
+    Author     : taing
+*/
+
+/*.abc, .accordion:hover {
+    background-color: #ffffff;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 10px 10px 10px;
+}*/
+accordion {
+    border: none;
+    background-color: #fff;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.panel {
+    font-size: 16px;
+    padding: 10px 10px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+
+
+  input::placeholder {
+    font-size: 5px; /* Đặt kích thước chữ mong muốn */
+  }

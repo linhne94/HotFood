@@ -1,0 +1,93 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 31, 2023, 12:40:01 AM
+    Author     : minhhieu
+*/
+
+
+  .logo_container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .title-wrapper {
+    margin-top: 10px; /* Điều chỉnh khoảng cách giữa logo_container và tiêu đề */
+  }
+
+ .left-profile{
+  background-color: #202124;
+  border-radius: 15px;
+  height: 600px  !important;
+
+ }
+
+ .btn-link{
+  color: #837e77;
+  font-size: 14px;
+  line-height: 30px;
+  
+  margin-right: 20px;
+ }
+
+.btn-link:hover{
+  color: #ff769c !important;
+ }
+
+ .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-detail {
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+.input-detail {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  width: 100%;
+}
+  
+.card-body{
+  text-transform: uppercase;
+  
+}
+
+.card-body h3{
+  font-family: 'Oswald', sans-serif;
+}
+.label-detail{
+  font-size: 13px;
+  color: #a2a2a2;
+}
+
+.infor-detail{
+  padding-bottom: 38px;
+}
+
+.input-detail:focus {
+  border-color: #fe4c50;
+  border-width: 3px;
+}
+
+.label-detail:active{
+  color: black;
+}
+
+.button-detail{
+  background-color: #202124;
+  border: none;
+  height: 55px;
+  border-radius: 30px;
+}
+
+.button-detail:hover{
+  background-color: #ff363a;
+}
+
+

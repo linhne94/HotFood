@@ -1,0 +1,184 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 29, 2023, 10:24:58 PM
+    Author     : minhhieu
+*/
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.super_container {
+  min-height: 100%;
+  
+}
+.container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+}
+
+.header-reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(217, 218, 220);
+  padding: 30px 0 30px 0;
+  margin: 0;
+  position: relative;
+}
+
+.header-reset h1 {
+  font-family: "Oswald", sans-serif;
+  color: #1e1e27;
+  font-size: 50px;
+  text-align: center;
+}
+.header-reset span {
+  color: #fe4c51;
+}
+
+.thank-user {
+  margin: 0 20px 10px 20px;
+  padding: 40px 0 40px 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-left: 0.5px solid #dddddd;
+  border-bottom: 0.5px solid #dddddd;
+  border-right: 0.5px solid #dddddd;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 0 10px rgba(221, 221, 221, 0.5);
+  background-color: #f5f5f5;
+}
+
+.thank-user h1 {
+  font-family: "Oswald", sans-serif;
+  color: #fe4c51;
+  font-size: 30px;
+  text-align: center;
+}
+
+.thank-user .fa-clock-o {
+  margin-bottom: 20px;
+  font-size: 60px;
+  color: #fe4c51;
+  text-align: center;
+}
+
+.thank-user h4 {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-bottom: 12px;
+}
+
+.content-order {
+  margin: 10px 20px 0 20px;
+  padding: 30px 0 20px 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-left: 0.5px solid #dddddd;
+  border-top: 0.5px solid #dddddd;
+  border-right: 0.5px solid #dddddd;
+  border-bottom: 0.5px solid #dddddd;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 0 0 10px rgba(221, 221, 221, 0.5);
+  background-color: #f5f5f5;
+  flex: 1;
+}
+
+.content-order h5 {
+  margin: 10px 0 20px 0;
+  text-transform: uppercase;
+}
+
+.content-order h3 {
+  color: #fe4c51;
+}
+
+.price-order{
+  margin: 30px 0 10px 0;
+}
+
+.time-order {
+  border: 0.5px solid #c2c2c2;
+  padding: 15px 40px 5px 40px;
+  border-radius: 20px;
+  margin: 5px 15px;
+}
+.time-order h5 {
+  text-transform: none;
+}
+.time-order i {
+  font-size: 20px;
+  margin-right: 17px;
+}
+.ordersuccess-btn {
+  padding: 30px;
+}
+.ordersuccess-btn button {
+  width: 280px;
+  height: 48px;
+  background-color: #fe4c51;
+  border-radius: 30px;
+}
+.ordersuccess-btn a {
+  font-size: 14px;
+  color: white;
+}
+
+.ordersuccess-btn button:hover {
+  background-color: #1e1e27;
+  color: white;
+  font-size: 16px;
+}
+.ordersuccess-btn a:hover {
+  color: white;
+  font-size: 16px;
+}
+
+
+.type{
+  margin: 20px 90px;
+}
+
+/* transform */
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-down {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.thank-user {
+  animation: slide-down 1s ease-out;
+  animation-fill-mode: forwards;
+}
+
+.content-order {
+  animation: slide-up 1s ease-out;
+  animation-fill-mode: forwards;
+}

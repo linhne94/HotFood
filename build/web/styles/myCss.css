@@ -1,0 +1,150 @@
+.main_slider{
+    background-size: cover;
+    background-position: center bottom 15%;
+}
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #FFFFFF;
+    z-index: 10;
+}
+.top_nav
+{
+    width: 100%;
+    height: 50px;
+    background: #1e1e27;
+}
+.top_nav_left
+{
+    height: 50px;
+    line-height: 50px;
+    font-size: 13px;
+    color: #b5aec4;
+    text-transform: uppercase;
+}
+/********************************
+3.4 Main Navigation
+*********************************/
+.main_nav_container
+{
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);
+}
+.navbar
+{
+    width: auto;
+    height: 100px;
+    float: right;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.navbar_menu li
+{
+    display: inline-block;
+}
+.navbar_menu li a
+{
+    display: block;
+    color: #1e1e27;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 20px;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+.navbar_menu li a:hover
+{
+    color: #b5aec4;
+}
+.navbar_user
+{
+    margin-left: 37px;
+}
+.navbar_user li
+{
+    display: inline-block;
+    text-align: center;
+}
+.navbar_user li a
+{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    color: #1e1e27;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+.navbar_user li a:hover
+{
+    color: #b5aec4;
+}
+.checkout a
+{
+    background: #eceff6;
+    border-radius: 50%;
+}
+.checkout_items
+{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -9px;
+    left: 22px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fe4c50;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+/*********************************
+3.6 Logo
+*********************************/
+.logo_container
+{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 15px;
+}
+.logo_container a
+{
+    font-size: 27px;
+    color: #1e1e27;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.logo_container a span
+{
+    color: #fe4c50;
+}
+

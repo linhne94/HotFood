@@ -1,0 +1,189 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 19, 2023, 9:28:30 PM
+    Author     : minhhieu
+*/
+
+ /* nav */
+ /* #accordion {
+  margin-bottom: 30px;
+}
+
+.own-item {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-link.active{
+  border-top: 1px solid #ababab !important ;
+  border-left: 1px solid #ababab !important ;
+  border-right: 1px solid #ababab !important ;
+}
+.nav-link:hover{
+  border-color: #d1d1d1 #d1d1d1 #d1d1d1 !important;
+}
+.nav-tabs{
+  border-bottom: 1px solid #ababab;
+}
+
+.link-item {
+  font-size: 17px;
+  color: #ababab;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.link-item.active {
+  color: #fe4c50 !important;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.link-item:hover {
+  color: #fe4c50 !important;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; */
+  
+  /* border-bottom: none; */
+/* } */
+
+#accordion {
+  margin-bottom: 30px;
+}
+
+.own-item {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.link-item {
+  font-size: 17px;
+  color: #7f7f76;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.link-item.active {
+  color: #fe4c50 !important;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.link-item:hover {
+  color: #fe4c50 !important;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* border-bottom: none; */
+}
+
+.active-link {
+  color: #ff769c !important;
+}
+#accountdetails.active-link {
+  color: #ff769c !important;
+}
+
+.profile-button a {
+  color: black;
+  font-size: 15px;
+}
+.profile-button i {
+  color: black;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.manager-center {
+  font-family: "Oswald", sans-serif !important;
+  font-size: 24px !important;
+}
+
+.order-confirm{
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+  margin: 10px 10px 10px 10px;
+  padding: 15px 0 15px 0;
+}
+
+
+.infor-user {
+  height: 70px;
+}
+
+.order-confirm span {
+  text-align: center;
+  margin: auto;
+  
+}
+/* modal  */
+.header-user{
+  font-size: 18px;
+  margin: 10px;
+}
+
+.own-product{
+  border:  1px solid #d8d8d8;
+  border-radius: 10px;
+  /* padding: 10px 10px 10px 10px; */
+
+  margin: 15px 15px 15px 15px;
+}
+
+.own-product img{
+  height: 90px;
+}
+.product-infor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-price{
+  border-top: 1px solid #e9ecef;
+  margin-top: 20px;
+
+}
+
+.discount-code{
+  margin: 30px 15px 15px 15px;
+  display: flex;
+    align-items: center;
+}
+
+.discount-code h5{
+  margin: 0;
+}
+
+.discount-code .col-md-4 h5{
+  align-items: end;
+}
+
+.footer-modal{
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0 25px 0;
+  padding-top: 25px;
+  border-top: 1px solid #e9ecef;
+}
+
+.footer-modal .col-3{
+  display: flex;
+  justify-content: center;
+}
+
+.footer-modal .acp-btn{
+  background-color: #28a745;
+  color: white;
+}
+.footer-modal .cancel-btn{
+  background-color: #fe4c50;
+  color: white;
+}
